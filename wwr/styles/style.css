@@ -26,6 +26,9 @@ main section {
     grid-column: 1/11;
     grid-row: 4/9;
 }
+#faq-msg {
+    background-color: #090446;
+}
 body {
     background-color: #006e90;
     font-family: Inter, Helvetica, sans-serif;
@@ -81,6 +84,27 @@ footer {
     font-size: 2em;
     margin-top: 10px;
 }
+.faq-title {
+    color: #ff9f1c;
+    background: #006e90;
+    font-family: "Cinzel", Arial, serif;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+#faq-msg h2 {
+    color: white;
+    text-align: center;
+    font-family: Inter, Helvetica, sans-serif;
+}
+#faq-msg p {
+    color: #adcad6;
+    font-size: 1em;
+    text-align: left;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+}
 .msg h2 {
     color: #adcad6;
     font-family: "Cinzel", Arial, serif;
@@ -105,6 +129,9 @@ footer a:hover {
     padding-top: 10px;
 }
 #hero-img {
+    width: 100%;
+}
+#blue-img {
     width: 100%;
 }
 footer p {
