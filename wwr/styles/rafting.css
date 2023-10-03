@@ -15,6 +15,12 @@
     --nav-hover-background-color:  #274C77;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -25,10 +31,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
+    font-size: 2rem;
 }
 
 header {
-    padding: 20px;
+    padding: 40px;
     background-color: var(--accent1-color);
 }
 
@@ -38,8 +45,9 @@ p {
 
 nav {
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     display: flex;
+    width: 100%;
 }
 
 nav a {
@@ -58,7 +66,13 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-.hero {
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+*.hero {
     position: relative;
 }
 
@@ -68,7 +82,44 @@ h1 {
     left: 300px;
 }
 
-article {
+.article img {
+    height: 200px;
+    width: auto;
+    float: right;
+    padding: 2px;
+}
+
+.article {
+    position: absolute;
+    top: 140px;
+    border: 1px solid steelblue;
+    background-color: #FF9B42;
+}
+
+/*.article img, .article p {
+    display: block;
+} 
+
+
+.article img {
+    position: absolute;
+    height: 170px;
+    width: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    top: 100px;
+    float: right;
+}
+
+.article p {
+    position: absolute;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color: #FF9B42;
+    top: 100px;
+}
+
+/* article {
     position: absolute;
     top: 90px;
     left: 300px;
@@ -84,12 +135,3 @@ article img {
     margin: 0 0 1rem 1rem;
 }
 
-p {
-    padding: 0;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
