@@ -96,42 +96,9 @@ h1 {
     background-color: #FF9B42;
 }
 
-/*.article img, .article p {
-    display: block;
-} 
+.sociallinks {
+    height: 70px;
 
-
-.article img {
-    position: absolute;
-    height: 170px;
-    width: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    top: 100px;
-    float: right;
 }
 
-.article p {
-    position: absolute;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 1);
-    background-color: #FF9B42;
-    top: 100px;
-}
-
-/* article {
-    position: absolute;
-    top: 90px;
-    left: 300px;
-    width: 150px;
-    height: auto;
-}
-
-article img {
-    width: 150px;
-    height: auto;
-    padding: 2px;
-    float: right;
-    margin: 0 0 1rem 1rem;
-}
 
