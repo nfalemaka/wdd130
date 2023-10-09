@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
     text-align: center;
     font-size: 2rem;
+    padding: 10px;
 }
 
 header {
@@ -78,7 +79,7 @@ nav a:hover {
 
 h1 {
     position: absolute;
-    top: 15px;
+    top: 50px;
     left: 300px;
 }
 
@@ -87,6 +88,7 @@ h1 {
     width: auto;
     float: right;
     padding: 2px;
+    opacity: 0.95;
 }
 
 .article {
@@ -94,11 +96,7 @@ h1 {
     top: 140px;
     border: 1px solid steelblue;
     background-color: #FF9B42;
-}
-
-.sociallinks {
-    height: 70px;
-
+    opacity: 0.95;
 }
 
 
