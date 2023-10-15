@@ -33,7 +33,6 @@ form {
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
-    align-items: center;
 }
 
 fieldset {
@@ -44,18 +43,12 @@ fieldset {
     padding: 1rem;
 }
 
-legend {
-    padding: 0.5rem;
-    color: navy;
-    font-size: 1.3rem;
-}
-
 label, input, button, select, textarea {
     font-family: Roboto, Arial, sans-serif;
 }
 
 label {
-    text-align: right;
+    text-align: center;
     padding-right: 1rem;
 }
 
@@ -93,22 +86,6 @@ footer {
     border-top: 1px solid #ccc;
 }
 
-.form-item {
-    display: grid;
-    align-items: center;
+text {
+    padding: .75rem;;
 }
-
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-}
-
-.column2 {
-    grid-template-columns: 1fr 2fr;
-    margin: 0.5rem 0;
-}
-
-label[for="feedback"] {
-    text-align: center;
-}
-
