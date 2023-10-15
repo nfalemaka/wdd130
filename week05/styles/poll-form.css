@@ -104,6 +104,10 @@ footer {
 
 .column2 {
     grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
 }
 
+label[for="feedback"] {
+    text-align: center;
+}
 
