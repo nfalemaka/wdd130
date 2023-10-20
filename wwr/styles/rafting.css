@@ -223,25 +223,67 @@ button:hover {
     background-color: var(--accent2-color);
 }
 
-.employees {
-    display: block;
-    width: auto;
-    height: auto;
-    text-align: center;
-}
-
-.employees img {
-    width: 350px;
-    height: auto;
-    padding: 2rem;
-    border: 1px solid var(--accent2-color);
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-    margin: 1rem;
-}
-
 .company {
     display: block;
     text-align: center;
     font-size: large;
 }
+
+.employee1 img {
+    width: 400px;
+    height: auto;
+    padding: 2rem;
+    border: 1px solid var(--accent2-color);
+    box-shadow: 0 0 30px gray;
+    margin: 1rem;
+    float: left;
+}
+
+.employee1 p {
+    text-align: center;
+}
+
+.employee1 {
+    display: block;
+    margin-top: 50px;
+}
+
+.employee2 {
+    display: block;
+    margin-top: 200px;
+}
+
+.employee2 img {
+    width: 300px;
+    height: auto;
+    padding: 2rem;
+    border: 1px solid var(--accent2-color);
+    box-shadow: 0 0 30px gray;
+    margin: 1rem;
+    float: left;
+}
+
+.employee2 p {
+    text-align: center;
+}
+
+.employee3 {
+    display: block;
+    margin-top: 300px;
+    margin-bottom: 300px;
+
+}
+.employee3 img {
+    width: 300px;
+    height: auto;
+    padding: 2rem;
+    border: 1px solid var(--accent2-color);
+    box-shadow: 0 0 30px gray;
+    margin: 1rem;
+    float: left;
+}
+
+.employee3 {
+    text-align: center;
+}
+
