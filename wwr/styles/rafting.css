@@ -287,3 +287,59 @@ button:hover {
     text-align: center;
 }
 
+.trips {
+    position: relative;
+}
+
+.trips img {
+    width: 100%;
+    height: auto;
+}
+
+.trips h1 {
+    position: absolute;
+    top: 170px;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 800px 800px 800px;
+    gap: 40px;
+    padding: 10px;
+}
+
+.services img {
+    width: 800px;
+    height: auto;
+    align-items: center;
+}
+
+.services p {
+    text-align: center;
+}
+
+.othertrips {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    gap: 30px;
+    padding: 10px;
+}
+
+.othertrips img {
+    width: 500px;
+    height: 600px;
+}
+
+.othertrips h3 {
+    align-self: center;
+}
+
+
+
