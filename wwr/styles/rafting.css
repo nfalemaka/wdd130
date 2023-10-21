@@ -139,8 +139,8 @@ h1 {
 
 .adventure img {
     padding: 1px;
-    height: 200px;
-    width: 174px;
+    height: 400px;
+    width: 400px;
     margin: 1rem;
 }
 
@@ -341,5 +341,48 @@ h2 {
     align-self: center;
 }
 
+.home {
+    position: relative;
+}
 
+.home img {
+    width: 100%;
+}
 
+.home h1 {
+    position: absolute;
+    top: 110px;
+    font-size: 50px;
+}
+
+.whoweare {
+    display: block;
+}
+
+.whoweare img {
+    width: 400px;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+}
+
+.whoweare p {
+    text-align: center;
+}
+
+.minitrips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr auto);
+    gap: 20px;
+    padding: 20px;
+}
+
+.minitrips img {
+    width: 300px;
+    height: 300px;
+}
+
+.minitrips h3 {
+    text-align: center;
+    align-self: center;
+}
