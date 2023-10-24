@@ -209,6 +209,10 @@ input[type="checkbox"] {
     height: 20px;
 }
 
+input[type="radio"] {
+    height: 17px;
+}
+
 button {
     margin: 1rem;
     background-color: var(--secondary-color);

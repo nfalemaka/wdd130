@@ -35,16 +35,18 @@
                     <input type="email" id="useremail" name="useremail">
             </fieldset>
             <fieldset>
-                <label for="purpose">Purpose of the email</label>
-                <select id="purpose" name="purpose">
-                    <option value="" selected disabled>Choose One...</option>
-                    <option value="general">General Inquiry</option>
-                    <option value="reservation">Reservation Question</option>
-                    <option value="website">Website Suggestion</option>
-                </select>
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="10"></textarea>
+                <label for=purpose">Purpose of the email:</label>
+                <br>
+                <label for="general">General Inquiry</label>
+                <input type="radio" id="purpose" name="purpose" value="general">
+                <label for="reservation">Reservation Question</label>
+                <input type="radio" id="purpose" name="purpose" value="reservation">
+                <label for="website">Website Suggestion</label>
+                <input type="radio" id="purpose" name="purpose" value="website">
             </fieldset>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="10"></textarea>
+            <br>
             <div class="subscribe">
                 <label for="subscribe">Please subscribe me to the monthly newsletter</label>
                 <input type="checkbox" id="subscribe" name="subscribe">
